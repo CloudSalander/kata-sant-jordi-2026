@@ -1,6 +1,6 @@
 <?php 
 
 interface ITakeGift {
-    public function takeGift();
+    public function takeGift():void;
 }
 ?>
