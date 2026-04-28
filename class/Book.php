@@ -9,11 +9,11 @@ class Book implements ITakeGift {
             "Manolito Gafotas",
             "Sin notícias de Gurb",
             "La puerta abierta"
-        ]
+        ];
 
         public function takeGift(): void {
             $randomBook = array_rand(self::TITLES);
-            echo "Here's your ".self::TITLES($randomBook).PHP_EOL;
+            echo "Here's your ".self::TITLES[$randomBook].PHP_EOL;
         }
 }
 ?>

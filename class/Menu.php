@@ -1,6 +1,6 @@
 <?php 
 include('Rose.php');
-include('Book.php=);
+include('Book.php');
 //TODO: Validate user entry
 class Menu {
     const INPUT_MESSAGE = "Please, choose option 1 or 2";
